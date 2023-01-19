@@ -1,0 +1,185 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    
+}
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    
+    
+
+}
+.bg-head {
+    background-image: url("bg-desktop-light.jpg");
+    height: 15rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.hline {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    margin: auto;
+    align-items: center;
+    place-content: center;
+    
+}
+#input-field {
+    display: flex;
+    margin: auto;  
+    width: 30rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: -2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    border:2px solid  rgb(199, 191, 191);
+  
+}
+.task-list {
+    width: 25rem;
+    margin: auto;
+ 
+  
+}
+ul {
+    display: flex;
+    width: 30rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    position: relative;
+    bottom: 5rem;
+    right: 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    flex-direction: column;
+    border-left: 2px solid rgb(199, 191, 191);
+    border-right: 2px solid rgb(199, 191, 191);
+    border-top: 2px solid rgb(199, 191, 191);
+   
+    
+}
+li{
+    border-bottom: 2px solid rgb(199, 191, 191);
+    list-style: none;
+    width: 30rem;
+    margin-top: 2rem;
+    position: relative;  
+    height: 2rem;
+    padding-bottom: 1.3rem;
+    float: left;
+    font-size: 1.1rem;  
+    
+}
+
+span:hover {
+    cursor: pointer;
+}
+#sun {
+    display: none;
+}
+
+.bgchange { 
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 3px;
+    
+}
+.functions {
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    margin: auto;
+    margin-top: -5.2rem;
+    background-color: white;
+    height: 3.5rem;
+    border-top: 1px solid  rgb(199, 191, 191);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 30rem;
+    position: relative;
+    right: 2.5rem;
+    border-bottom: 2px solid  rgb(199, 191, 191);
+    border-left: 2px solid  rgb(199, 191, 191);
+    border-right: 2px solid  rgb(199, 191, 191);
+    border-top: 2px solid rgb(199, 191, 191);
+}
+.f-list {
+    margin: auto;
+    cursor: pointer;
+}
+p {
+    margin-top: -0.2px;
+    margin: auto;
+}
+input[type="checkbox"] {
+    float: left;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    bottom: 0.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    
+    
+    
+}
+input[type="checkbox"]:checked {
+   accent-color: hsl(235, 24%, 19%);
+   
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        position: absolute;
+        left: 2rem;
+        display: inline;
+    }
+    #input-field {
+        margin-top: 3.2rem;
+        width: 23rem;
+    }
+    .hline {
+        position: relative;
+        top:2rem;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .bgchange{
+        position: relative;
+        left: 9rem;
+    }
+    li {
+        width: 23rem;
+        
+    }
+    ul {
+        width: 23rem;
+        position: relative; 
+        left: 0;
+    }
+    .functions {
+        width:23rem;
+        margin: auto;
+        margin-top: -5rem;
+        position: relative;
+        left: 0;
+        
+    }
+    .f-list {
+        position: relative;
+        padding: 3px;
+        left: 5px;
+       
+    }
+}
+
