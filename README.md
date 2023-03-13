@@ -12,6 +12,6 @@ Here are some of the features you can expect to find in the app:
 
 Getting started with the app is easy. Simply download it from the app store and sign up for an account. Once you're logged in, you can start adding tasks and getting organized.
 
-We hope you find the to-do app helpful in managing your tasks and staying on top of your to-do list. If you have any questions or feedback, please don't hesitate to reach out to us at support@todoapp.com.
+We hope you find the to-do app helpful in managing your tasks and staying on top of your to-do list. If you have any questions or feedback, please don't hesitate to reach out to me at robinl.leitner1@gmail.com
 
 Happy organizing!
