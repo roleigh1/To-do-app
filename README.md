@@ -11,9 +11,7 @@ Here are some of the features you can expect to find in the app:
     Counts tasks in the list
     View all your tasks in a clear and easy-to-read list
     Edit or delete tasks as needed
-    Change the theme
-
-Getting started with the app is easy. Simply download it from the app store and sign up for an account. Once you're logged in, you can start adding tasks and getting organized.
+    
 
 We hope you find the to-do app helpful in managing your tasks and staying on top of your to-do list. If you have any questions or feedback, please don't hesitate to reach out to me at robinl.leitner1@gmail.com
 
